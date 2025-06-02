@@ -1,0 +1,12 @@
+# IntelliJ and Gradle folders
+.gradle/
+.idea/
+build/
+*.iml
+
+# OS and cache files
+.DS_Store
+Thumbs.db
+*.log
+*.bin
+*.lock

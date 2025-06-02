@@ -1,0 +1,16 @@
+<idea-plugin>
+    <id>com.dumpalarakshith.todo</id>
+    <name>TodoPlugin</name>
+    <vendor>dumpalarakshith</vendor>
+
+    @SuppressWarnings("HardCodedStringLiteral")
+    <description>Plugin to highlight and list TODO comments in Kotlin files.</description>
+    <idea-version since-build="232"/>
+
+
+    @SuppressWarnings("HardCodedStringLiteral")
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="TODO List" anchor="right" factoryClass="com.dumpalarakshith.todo.TodoToolWindowFactory"/>
+        <notificationGroup id="TodoPlugin" displayType="BALLOON"/>
+    </extensions>
+</idea-plugin>

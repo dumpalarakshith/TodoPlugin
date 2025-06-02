@@ -1,0 +1,34 @@
+# TodoPlugin
+An IntelliJ IDEA plugin that highlights and lists TODO comments in Kotlin files.
+
+## Features
+- Scans open Kotlin files for TODO comments (e.g., // TODO: ... or // todo: ... ).
+- Highlights TODOs in the editor with a yellow background.
+- Displays TODOs in a "TODO List" tool window on the right with line numbers.
+- Clicking a TODO in the tool window navigates to its location in the editor.
+
+
+## Setup
+1. Clone the repo: `git clone https://github.com/dumpalarakshith/TodoPlugin.git`
+2. Open the project in IntelliJ IDEA.
+3. Build the plugin: `gradlew buildPlugin`
+4. Run in a sandbox IDE: `gradlew runIde`
+
+## Usage
+1. Open a Kotlin file with TODO comments (e.g., `// TODO: Fix this`).
+2. View highlighted TODOs in the editor (yellow background).
+3. Open the "TODO List" tool window (right side) to see the list of TODOs.
+4. Click a TODO to jump to its line in the editor.
+
+## Requirements
+- IntelliJ IDEA 2023.2 or later
+- Java 17
+- Kotlin plugin
+
+## Screenshots
+(screenshots/screenshot31.png)
+(screenshots/screenshot32.png)
+(screenshots/screenshot33.png)
+(screenshots/screenshot34.png)
+(screenshots/screenshot35.png)
+(screenshots/screenshot36.png)
